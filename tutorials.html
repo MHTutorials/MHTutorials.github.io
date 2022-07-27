@@ -108,14 +108,8 @@
 <script>
     $(document).ready(function() {
         window.onfocus = function() {
-        var fade_in = function() {
-            $(".quote").fadeIn();
+            showSnackbar()
         }
-        setTimeout(fade_in, 2000);
-        var fade_out = function() {
-            $(".quote").fadeOut();
-        }
-        setTimeout(fade_out, 10000);
     };
 });
 </script>
